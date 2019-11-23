@@ -1,5 +1,5 @@
 var Video = document.getElementById('Video');
-var Button = document.getElementById('volume-btn');
+var Button = document.getElementById('Volume-Button');
 Button.addEventListener('click', function() {
     if (Video.muted === true) {
         Video.muted = false;
